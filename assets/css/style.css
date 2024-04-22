@@ -20,11 +20,18 @@ body {
 h1 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+.section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 
 /* navbar */
 
@@ -34,6 +41,12 @@ h1 {
 
 #navbar .logo {
     width: 30px;
+}
+
+/* header */
+
+#header .display-6 {
+    font-family: var(--secondary-font);
 }
 
 /* grid visualisation CSS for testing */
