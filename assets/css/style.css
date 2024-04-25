@@ -26,7 +26,7 @@ h3 {
 
 h1,
 h2 {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 
@@ -66,7 +66,7 @@ h2 {
     background-color: transparent;
     color: var(--highlight-color);
     font-weight: bold;
-}  
+}
 
 #services .card {
     margin-bottom: 1.5rem;
@@ -76,11 +76,44 @@ h2 {
 
 #new-games .card,
 #fav-games .card {
-  /* border removed for different visual effect, 
+    /* border removed for different visual effect, 
   and also to hide that the cards can appear slightly 
   different sizes on different screen sizes */
-  border: none;
-}  
+    border: none;
+}
+
+/* footer/contact */
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-icons i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    margin-right: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+#contact .social-icons i:hover {
+    color: var(--secondary-color);
+}
+
 
 /* grid visualisation CSS for testing */
 
@@ -98,6 +131,7 @@ h2 {
 
 /* medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
@@ -106,25 +140,27 @@ h2 {
 
 /* large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
     /* make all service cards the same height for consistency */
-        #services .card-body {
-            min-height: auto;
-        }    
+    #services .card-body {
+        min-height: auto;
     }
-    
+}
+
 /* xl screen sizes and up */
 @media screen and (min-width: 1200px) {
+
     /* make all service cards the same height for consistency */
     #services .card-body {
-      min-height: 220px;
+        min-height: 220px;
     }
 }
-  
+
 /* xxl screen sizes */
 @media screen and (min-width: 1400px) {
+
     /* make all service cards the same height for consistency */
     #services .card-body {
-      min-height: 195px;
+        min-height: 195px;
     }
 }
-  
