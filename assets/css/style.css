@@ -71,7 +71,16 @@ h2 {
 #services .card {
     margin-bottom: 1.5rem;
 }
-  
+
+/* game library */
+
+#new-games .card,
+#fav-games .card {
+  /* border removed for different visual effect, 
+  and also to hide that the cards can appear slightly 
+  different sizes on different screen sizes */
+  border: none;
+}  
 
 /* grid visualisation CSS for testing */
 
