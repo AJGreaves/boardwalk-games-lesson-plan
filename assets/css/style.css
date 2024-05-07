@@ -15,6 +15,7 @@
 
 body {
     font-family: var(--primary-font);
+    padding-top: 58.4px; /* pushes top of header down under fixed navbar */
 }
 
 h1,
@@ -39,8 +40,7 @@ h2 {
 }
 
 .section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 4.5rem;
 }
 
 /* buttons */
@@ -121,9 +121,10 @@ h2 {
     font-weight: bold;
     color: white;
     display: block;
-    width: 300px;
+    width: 260px;
     margin: auto;
     padding: 5px 10px;
+    font-size: 0.9rem;
 }
 
 /* footer/contact */
