@@ -4,7 +4,7 @@
 
 heading: Game Library
 
-Subheading: Discover new games to rent or buy
+lead text: Discover new games to rent or buy
 
 paragraph text: Dive into a world of adventure, strategy, and fun with our carefully curated collection of board games to rent or buy. From timeless classics to the latest sensations, our shelves are packed with games waiting to be discovered.
 
